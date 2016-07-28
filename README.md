@@ -1,6 +1,6 @@
 # quartz-scheduler-hazelcast-jobstore-sample
 
-Sample project to simulate the problem mentioned in this issue: FlavioF/quartz-scheduler-hazelcast-jobstore#36
+Sample project to simulate the problem mentioned in this issue: [FlavioF/quartz-scheduler-hazelcast-jobstore#36](https://github.com/FlavioF/quartz-scheduler-hazelcast-jobstore/issues/36)
 
 
 ## Running
