@@ -113,7 +113,7 @@ public class MyJobDetail implements JobDetail
     @Override
     public boolean isConcurrentExectionDisallowed()
     {
-        return true;
+        return false;
     }
 
     @Override
