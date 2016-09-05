@@ -37,7 +37,7 @@ import com.hazelcast.core.HazelcastInstance;
 public class EntryPoint
 {
     private static final Logger LOG = LoggerFactory.getLogger(EntryPoint.class);
-    private static final int INTERVAL = 10000;
+    private static final int INTERVAL = 5000;
 
     private HazelcastInstance hazelcast;
     private Scheduler scheduler;
@@ -142,7 +142,7 @@ public class EntryPoint
         properties.setProperty(PROP_SCHED_INSTANCE_ID, AUTO_GENERATE_INSTANCE_ID);
         properties.setProperty(PROP_SCHED_INSTANCE_ID_GENERATOR_CLASS, QuartzInstanceIdGenerator.class.getName());
         properties.setProperty(PROP_JOB_STORE_CLASS, HazelcastJobStore.class.getName());
-        properties.setProperty(PROP_JOB_STORE_PREFIX + ".misfireThreshold", "60000");
+        properties.setProperty(PROP_JOB_STORE_PREFIX + ".misfireThreshold", "5000");
         properties.setProperty(PROP_JOB_STORE_PREFIX + ".shutdownHazelcastOnShutdown", "false");
         properties.setProperty(PROP_THREAD_POOL_CLASS, SimpleThreadPool.class.getName());
         properties.setProperty(PROP_THREAD_POOL_PREFIX + ".threadCount", "10");
