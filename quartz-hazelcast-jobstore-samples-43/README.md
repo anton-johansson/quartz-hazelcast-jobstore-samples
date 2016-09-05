@@ -12,11 +12,11 @@ cd target
 java -jar quartz-hazelcast-jobstore-samples-43-0.0.1-SNAPSHOT.jar runner (in terminal window #1)
 java -jar quartz-hazelcast-jobstore-samples-43-0.0.1-SNAPSHOT.jar runner (in terminal window #2)
 java -jar quartz-hazelcast-jobstore-samples-43-0.0.1-SNAPSHOT.jar scheduler (in terminal window #3)
-kill the runner in terminal #1 by pressing [Enter]
+# kill the runner in terminal #1 by pressing [Enter]
 java -jar quartz-hazelcast-jobstore-samples-43-0.0.1-SNAPSHOT.jar runner (in terminal window #1)
-the job should now be running in terminal window #2
+# the job should now be running in terminal window #2
 java -jar quartz-hazelcast-jobstore-samples-43-0.0.1-SNAPSHOT.jar scheduler (in terminal window #3)
-the job is now running in both terminal windows...
+# the job is now running in both terminal windows...
 ```
 
 
