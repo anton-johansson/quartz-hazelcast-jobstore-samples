@@ -15,6 +15,7 @@
 
     <modules>
         <module>quartz-hazelcast-jobstore-samples-35</module>
+        <module>quartz-hazelcast-jobstore-samples-43</module>
     </modules>
 
 </project>
