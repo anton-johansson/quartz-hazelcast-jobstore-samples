@@ -6,3 +6,4 @@ Contains projects to reproduce issues with the [Quartz Hazelcast Jobstore projec
 ## Samples
 
  * [#35](./quartz-hazelcast-jobstore-samples-35)
+ * [#43](./quartz-hazelcast-jobstore-samples-43)
