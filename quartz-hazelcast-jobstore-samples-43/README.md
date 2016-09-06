@@ -22,5 +22,4 @@ java -jar quartz-hazelcast-jobstore-samples-43-0.0.1-SNAPSHOT.jar scheduler # (i
 
 ## Problem
 
-The problem is that when any changes is made to my jobs, I want to re-schedule them. I remove any existing triggers, then I schedule the job again (with any changes applied). However, it seems that the job isn't really unscheduled. The job will run on both nodes.
-
+The problem is that when any changes is made to my jobs, I want to re-schedule them. I remove any existing triggers, then I schedule the job again (with any changes applied). However, it seems that the job isn't really unscheduled. The job will run on both nodes, both with the intended interval, meaning we get twice as many executions.
